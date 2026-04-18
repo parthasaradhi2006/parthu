@@ -7,7 +7,7 @@ public class data_base_con {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/student",
                 "root",
-                "Parthasaradhi@415121");
+                "***************");
 			
 		}
 		catch(Exception e){
